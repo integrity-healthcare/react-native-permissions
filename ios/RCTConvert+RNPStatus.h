@@ -21,6 +21,7 @@ static NSString* RNPStatusRestricted = @"restricted";
 
 
 typedef NS_ENUM(NSInteger, RNPType) {
+    RNPTypeUnknown,
     RNPTypeCamera,
     RNPTypeMicrophone,
 };
